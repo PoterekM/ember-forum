@@ -21,7 +21,7 @@
   6. adjust model hook
   7. add tile to view individual component.
   8. update template
-  9. start working on deleting and updating an individual question
+  9. start working on deleting and updating an individual question BUT THROUGH ADMIN SETTINGS
     * add delete action button to question-tile .hbs
     * add delete action function to question-tile component .js
     * on app/index.hbs add: path to where you're going, bring your model with ya, and any action that may need to take place
