@@ -1,4 +1,9 @@
 <h1>Welcome to our Forum</h1>
 
+  {{#each model as |question|}}
+  <p>{{question.title}} by {{question.username}} filed under: {{question.category}}</p>
+  <ul>
+    <li>{{question.body}}</li>
+  </ul>
 
-{{outlet}}
+  {{/each}}
