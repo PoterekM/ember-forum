@@ -1,5 +1,14 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<div class= "container">
+  <header class= "jumbotron">
+    <h1>mkdir forum</h1>
+    {{#link-to 'about'}}About{{/link-to}}
+    {{#link-to 'faq'}}FAQ{{/link-to}}
+    {{#link-to 'admin'}}Admin{{/link-to}}
+    {{#link-to 'index'}}Home{{/link-to}}
+  </header>
+    {{outlet}}
+  <hr>
+  <footer>
 
-{{outlet}}
+  </footer>
+</div>
