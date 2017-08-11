@@ -1,4 +1,2 @@
-<p>{{question.title}} by {{question.username}} filed under: {{question.category}}</p>
-<ul>
-  <li>{{question.body}}</li>
-</ul>
+{{#link-to 'question' question.id}}{{question.title}} by {{question.username}}
+{{/link-to}}
