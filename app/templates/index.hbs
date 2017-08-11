@@ -1,7 +1,6 @@
 <h1>Welcome to our Forum</h1>
+{{new-question saveQuestion="saveQuestion"}}
 
 {{#each model as |question|}}
   {{question-tile question=question}}
 {{/each}}
-
-{{new-question saveQuestion="saveQuestion"}}
