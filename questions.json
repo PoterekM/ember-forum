@@ -8,5 +8,14 @@
   "category": "basic question",
   "title": "How do I turn my computer on?",
   "body": "IDk, i'm like using my phone right now. Can I code from there?"
-}]
+}],
+"answers": [{
+    "username": "Andrea",
+    "level": "expert",
+    "answer": "Did not fall down."
+  }, {
+    "username": "Alex",
+    "level": "jedi",
+    "answer": "yes!"
+  }]
 }

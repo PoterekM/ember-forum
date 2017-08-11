@@ -1,6 +1,15 @@
 <h1>Welcome to our Forum</h1>
 {{new-question saveQuestion="saveQuestion"}}
 
-{{#each model as |question|}}
+{{#each model.questions as |question|}}
   {{question-tile question=question}}
 {{/each}}
+
+
+<h2> All Answers </h2>
+
+<ul>
+  {{#each model.answers as |answer|}}
+    <li>{{answer.username}} - {{answer.level}} - by {{answer.answer}}</li>
+  {{/each}}
+</ul>
